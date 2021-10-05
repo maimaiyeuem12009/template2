@@ -1,0 +1,16 @@
+@mixin hover-box{
+  -webkit-transition: box-shadow 0.150s ease-in;
+  -moz-transition: box-shadow 0.150s ease-in;
+  -o-transition: box-shadow 0.150s ease-in;
+  transition: box-shadow 0.150s ease-in;
+
+  &:hover{
+    -webkit-box-shadow: 5px 10px   #000;
+    -moz-box-shadow: 5px 10px   #000;
+    box-shadow: 5px 10px   #000;
+  }
+}
+
+@mixin test-box{
+  border: 1px solid red;
+}
