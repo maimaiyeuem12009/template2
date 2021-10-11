@@ -10,6 +10,7 @@ onMounted(() => {
 
 <template>
   <div id="canvas">
+    <p text="4xl red-100">Hello</p>
   </div>
 </template>
 
